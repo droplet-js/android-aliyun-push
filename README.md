@@ -10,6 +10,12 @@ ext {
 allprojects {
     repositories {
         ...
+
+        // aliyun
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        }
+
         maven {
             url 'https://oss.jfrog.org/artifactory/oss-snapshot-local'
         }
@@ -29,6 +35,11 @@ allprojects {
     repositories {
         ...
         jcenter()
+
+        // aliyun
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        }
         ...
     }
 }

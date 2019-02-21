@@ -29,6 +29,11 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    api "com.aliyun.ams:alicloud-android-push:${aliyunMPushVersion}"
+    api "com.aliyun.ams:alicloud-android-utdid:${aliyunUtdidVersion}"
+    api "com.aliyun.ams:alicloud-android-ut:${aliyunUtVersion}"
+    api "com.aliyun.ams:alicloud-android-third-push:${aliyunThirdPushVersion}"
 }
 
 apply from: '../publish.gradle'

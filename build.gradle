@@ -82,6 +82,11 @@ allprojects {
         google()
         jcenter()
 
+        // aliyun
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        }
+
         maven {
             url 'https://oss.jfrog.org/artifactory/oss-snapshot-local'
         }
@@ -116,7 +121,10 @@ subprojects {
 
         // ---
 
-        androidxFragmentVersion = '1.0.0'
+        aliyunUtVersion = '5.0.0'
+        aliyunUtdidVersion = '1.1.5.3'
+        aliyunMPushVersion = '3.0.11@aar'
+        aliyunThirdPushVersion = '3.0.3@aar'
 
         // ---
 
