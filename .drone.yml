@@ -35,6 +35,8 @@ steps:
   commands:
   - ./gradlew :aliyun-push-android:clean :aliyun-push-android:install :aliyun-push-android:artifactoryPublish
   when:
+    branch:
+    - master
     event:
     - push
 
