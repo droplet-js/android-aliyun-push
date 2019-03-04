@@ -8,7 +8,7 @@
 
 ````
 ext {
-    latestVersion = '1.0.0-SNAPSHOT'
+    latestVersion = '3.0.11-SNAPSHOT'
 }
 
 allprojects {
@@ -32,7 +32,7 @@ allprojects {
 
 ````
 ext {
-    latestVersion = '1.0.0'
+    latestVersion = '3.0.11'
 }
 
 allprojects {
@@ -53,16 +53,6 @@ allprojects {
 
 android
 ````
-...
-android {
-    ...
-    defaultConfig{
-        ...
-        manifestPlaceholders = [TENCENT_APP_ID: "${appId}"]
-        ...
-    }
-    ...
-}
 ...
 dependencies {
     ...
