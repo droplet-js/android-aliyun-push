@@ -117,13 +117,6 @@ subprojects {
 
         // ---
 
-        aliyunUtVersion = '5.0.0'
-        aliyunUtdidVersion = '1.1.5.3'
-        aliyunMPushVersion = '3.0.11@aar'
-        aliyunThirdPushVersion = '3.0.3@aar'
-
-        // ---
-
         junitVersion = '4.12'
 
         runnerVersion = '1.1.0-alpha4'

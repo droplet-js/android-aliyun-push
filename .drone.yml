@@ -31,7 +31,7 @@ steps:
     BINTRAY_API_KEY:
       from_secret: BINTRAY_API_KEY
     VERSION_CODE: ${DRONE_BUILD_NUMBER}
-    VERSION_NAME: 3.0.11-SNAPSHOT
+    VERSION_NAME: 3.1.4-SNAPSHOT
   commands:
   - ./gradlew :aliyun-push-android:clean :aliyun-push-android:install :aliyun-push-android:artifactoryPublish
   when:
@@ -52,7 +52,7 @@ steps:
     BINTRAY_API_KEY:
       from_secret: BINTRAY_API_KEY
     VERSION_CODE: ${DRONE_BUILD_NUMBER}
-    VERSION_NAME: 3.0.11
+    VERSION_NAME: 3.1.4
   commands:
   - ./gradlew :aliyun-push-android:clean :aliyun-push-android:install :aliyun-push-android:bintrayUpload
   when:
